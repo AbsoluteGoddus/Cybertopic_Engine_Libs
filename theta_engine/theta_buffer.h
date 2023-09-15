@@ -1,8 +1,24 @@
 //
 // Created by yanni on 14.09.2023.
 //
-
 #ifndef CYBERTOPIC_ENGINE_1_BUFFER_H
 #define CYBERTOPIC_ENGINE_1_BUFFER_H
 
+#include <vector>
+#include "../cymath/cymath_main.h"
+
+
+namespace theta
+{
+  namespace buffer
+  {
+    class vertexBuffer2D 
+  	{
+      int size = 0;
+      int[4] linked_Buffers;
+      std::vector<cymath::_std::vector2<double>>
+    }
+  }
+
+}
 #endif //CYBERTOPIC_ENGINE_1_BUFFER_H
