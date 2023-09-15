@@ -16,7 +16,8 @@ namespace theta
   	{
       int size = 0;
       int[4] linked_Buffers;
-      std::vector<cymath::_std::vector2<double>>
+      std::vector<cy::vector2<double>> vertexPositions;
+      std::vector<double> ivertexRotations;
     }
   }
 
