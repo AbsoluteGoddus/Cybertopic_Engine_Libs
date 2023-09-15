@@ -8,7 +8,6 @@
 #include "SCML/SCML_main.h"
 #include "theta_engine/theta_main.h"
 #include "cymath/cymath_main.h"
-#include "SCML/SCML_main.h"
 #include "Noiser/Noiser_main.h"
 
 #endif //CYBERTOPIC_ENGINE_1_CE_MAIN_H
