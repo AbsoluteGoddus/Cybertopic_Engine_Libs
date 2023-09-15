@@ -5,6 +5,7 @@
 #ifndef CYBERTOPIC_ENGINE_1_CYMATH_MAIN_H
 #define CYBERTOPIC_ENGINE_1_CYMATH_MAIN_H
 
+#include "cymath_angles.h"
 #include "cymath_std.h"
 #include "cymath_trig.h"
 
