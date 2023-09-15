@@ -19,6 +19,14 @@ namespace theta
       std::vector<cy::vector2<double>> vertexPositions;
       std::vector<double> ivertexRotations;
     }
+
+    class vertexBuffer3D 
+  	{
+      int size = 0;
+      int[4] linked_Buffers;
+      std::vector<cy::vector3<double>> vertexPositions;
+      std::vector<cy::vector3<double>> eulerRotations;
+    }
   }
 
 }
