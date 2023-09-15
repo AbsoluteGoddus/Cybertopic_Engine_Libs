@@ -34,14 +34,16 @@ namespace cy
           return q;
         }
     }
-
-    class euler2D
+    namespace euler
     {
-      public:
-        struct e_rotation2
+      struct deg
+      {
+        double alpha;
+        deg(int in) alpha(in)
         {
-          double x;
+          
         }
+      }
     }
   }
 }
